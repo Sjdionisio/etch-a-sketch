@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+
+.container{
+    height: auto;
+    max-width: 480px;
+    display: flex;
+    border: 5px solid grey;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    background-color: saddlebrown;
+}
+
+.square{
+    background-color: saddlebrown;
+    height: 30px;
+    width: 30px;
+}
